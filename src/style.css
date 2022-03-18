@@ -1,0 +1,23 @@
+
+
+.text{
+background: linear-gradient(90deg, #B57E10 -4.86%, #B57E10 19.2%, #F9DF7B 47.13%, #FFF3A6 60.64%, #F9DF7B 72.18%, #B57E10 86.85%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+
+.bar{
+    background: linear-gradient(90deg, #B57E10 -4.86%, #B57E10 19.2%, #F9DF7B 47.13%, #FFF3A6 60.64%, #F9DF7B 72.18%, #B57E10 86.85%);
+}
+
+#nav-link{
+  transition: 1s cubic-bezier(1, -0.03, 0.32, 0.97);;
+    
+}
+
+.open{
+    transform: translateX(0%);
+}
