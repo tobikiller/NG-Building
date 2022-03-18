@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,48 +10,86 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Krona+One&family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Krona+One&family=Mulish&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- navigation bar -->
     <nav class="bg-PrimaryBlack">
-       <div class=" mx-[19px] flex py-3 justify-between items-center">
-        <img class="h-12 md:h-16" src="images/logo.svg" alt="">
+        <div class=" mx-[19px] flex py-3 justify-between items-center">
+            <img class="h-12 md:h-16" src="images/logo.svg" alt="">
 
-        <div class="space-y-1 z-10" id="toggle-btn">
-            <div class="h-0.5 w-5 bar"></div>
-            <div class="h-0.5 w-5 bar"></div>
-            <div class="h-0.5 w-5 bar"></div>
+            <div class="space-y-1 z-10" id="toggle-btn">
+                <div class="h-0.5 w-5 bar"></div>
+                <div class="h-0.5 w-5 bar"></div>
+                <div class="h-0.5 w-5 bar"></div>
+            </div>
+
+            <div class="menu-container links fixed top-0 right-0 bg-PrimaryBlack p-5 h-screen w-[100%] transform translate-x-[100%] md:w-2/4 flex flex-col space-y-1 justify-center "
+                id="nav-link">
+                <ul class=" flex flex-col space-y-3 ">
+                    <p class="font-krona text-lightGray text-base mb-2 font-bold">Menu</p>
+                    <li><a class="font-Bodoni italic text-5xl text" href="#">Contact</a></li>
+                    <li><a class="font-Bodoni italic text-5xl text" href="#">Gallery</a></li>
+                </ul>
+            </div>
         </div>
-
-        <div class="menu-container links fixed top-0 right-0 bg-PrimaryBlack p-5 h-screen w-[100%] transform translate-x-[100%] md:w-2/4 flex flex-col space-y-1 justify-center " id="nav-link">
-            <ul class=" flex flex-col space-y-3 ">
-                 <p class="font-krona text-lightGray text-base mb-2 font-bold">Menu</p>
-                <li><a class="font-Bodoni italic text-5xl text" href="#">Contact</a></li>
-                <li><a class="font-Bodoni italic text-5xl text" href="#">Gallery</a></li>
-            </ul>
-         </div>
-       </div> 
     </nav>
 
-     <div class="flex flex-col md:flex-row justify-between items-center md:bg-PrimaryBlack">
-         <img class="md:w-96 lg:w-full" src="images/Header.png" alt="">
+    <div class="flex flex-col md:flex-row justify-between items-center md:bg-PrimaryBlack">
+        <img class="md:w-96 lg:w-full" src="images/Header.png" alt="">
 
-         <div class="bg-PrimaryBlack md:bg-none p-5 md:p-8 md:w-full w-full space-y-1 h-80 md:h-auto ">
-             <h2 class="text font-krona text-2xl lg:text-4xl">
+        <div class="bg-PrimaryBlack md:bg-none p-5 md:p-8 md:w-full w-full space-y-1 h-80 md:h-auto ">
+            <h1 class="text font-krona text-2xl lg:text-4xl">
                 Designing the inside <br> of your house
-             </h2>
-             <p class="text-base font-Mulish max-w-[300] md:max-w-full text-white pt-3">
-                NG Building is an interior design company that offers a range of services for your home. We offer the highest quality, at the best price
-             </p>
-             <div class="bg-white w-fit px-2 py-1 group hover:text-white hover:bg-slate-800">
+            </h1>
+            <p class="text-base font-Mulish max-w-[300] md:max-w-full text-white pt-3">
+                NG Building is an interior design company that offers a range of services for your home. We offer the
+                highest quality, at the best price
+            </p>
+            <div class="bg-white w-fit px-2 py-1 group hover:text-white hover:bg-slate-800">
                 <a href="#" class=" font-krona text-sm">Let's Work</a>
-             </div>
-       
-         </div>
-     </div>
+            </div>
 
+        </div>
+    </div>
+
+
+    <section class="gallery px-4 mt-12">
+
+        <div class="grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-0 md:place-items-center lg:px-[250px] md:px-12 ">
+            <div class="space-y-1 md:w-full md:h-full  ">
+
+                
+                <h2 class="text text-3xl font-krona  ">
+                    Our best work, <br> ever
+                </h2>
+
+                <p class="font-Mulish text-base text-gray-500 ">We're all about getting the job done without wasting
+                    time or money. You can trust our experienced
+                    team of designers and contractors to deliver the best work, quickly and affordably</p>
+                <div class="bg-PrimaryBlack text-white w-fit px-3 py-2 group hover:text-white hover:bg-slate-800">
+                    <a href="#" class=" font-Bodoni text-base ">Gallery</a>
+                </div>
+            </div>
+            <div>
+                <img src="images/Gallery showcase 1.png" alt="">
+            </div>
+            <div>
+                <img src="images/Gallery showcase 2.png" alt="">
+            </div>
+            <div class="bg-PrimaryBlack sm:w-[500px] md:w-full md:h-full px-5 pt-8   block space-y-1">
+
+                <h2 class="text-2xl font-Bodoni text-white max-w-[200px] ">We care about your budget</h2>
+                <p class="font-Mulish text-base max-w-[263px] text-white ">We offer competitive pricing on any project you can imagine. Whether you need a small touch-up or a
+                    full remodel, we'll make sure it's done right, with no surprises to the final price tag.</p>
+
+            </div>
+        </div>
+    </section>
 
     <script src="index.js"></script>
 </body>
+
 </html>
