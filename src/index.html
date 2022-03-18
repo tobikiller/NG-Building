@@ -16,14 +16,14 @@
 
 <body class="bg-lightGray">
     <!-- navigation bar -->
-    <nav class="bg-PrimaryBlack">
+    <nav class="bg-PrimaryBlack fixed top-0 left-0 w-full">
         <div class=" mx-[19px] flex py-3 justify-between items-center">
-            <img class="h-12 md:h-16" src="images/logo.svg" alt="">
+            <img class="h-12 md:h-16 z-10" src="images/logo.svg" alt="">
 
-            <div class="space-y-1 z-10" id="toggle-btn">
-                <div class="h-0.5 w-5 bar"></div>
-                <div class="h-0.5 w-5 bar"></div>
-                <div class="h-0.5 w-5 bar"></div>
+            <div class="space-y-1 z-10  relative change" id="toggle-btn">
+                <div class="h-0.5 w-5 bar  relative duration-500 delay-300 rotate-0 top-0   "></div>
+                <div class="h-0.5 w-5 bar duration-500 middle relative bottom-0 "></div>
+                <div class="h-0.5 w-5 bar relative  duration-500 delay-500  rotate-0 bottom-0 "></div>
             </div>
 
             <div class="menu-container links fixed top-0 right-0 bg-PrimaryBlack p-5 h-screen w-[100%] transform translate-x-[100%] md:w-2/4 flex flex-col space-y-1 justify-center "

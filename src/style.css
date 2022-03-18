@@ -14,10 +14,35 @@ text-fill-color: transparent;
 }
 
 #nav-link{
-  transition: 1s cubic-bezier(1, -0.03, 0.32, 0.97);;
+  transition: 1s cubic-bezier(0.74, 0.01, 0.23, 0.97);
     
 }
 
 .open{
     transform: translateX(0%);
+}
+
+.top{
+  transform: rotate(45deg);
+				top: 5px;
+   
+        transition: all 0.5s cubic-bezier(0.1, 0.82, 0.76, 0.965);
+}
+
+.down{
+  transform: rotate(-45deg);
+				bottom: 5px;
+       
+        transition: all 0.5s cubic-bezier(0.1, 0.82, 0.76, 0.965);
+}
+
+
+.inmiddle{
+  opacity: 0;
+  transition: 0.8s  cubic-bezier(0.1, 0.82, 0.76, 0.965);
+  bottom: 5px;
+}
+
+.change{
+  transition: 1s ease;
 }
