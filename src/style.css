@@ -46,3 +46,8 @@ text-fill-color: transparent;
 .change{
   transition: 1s ease;
 }
+
+
+.inner-shadow{
+  box-shadow: inset 0 0 0 300px rgb(0 0 3 / 10%);
+}
