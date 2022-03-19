@@ -778,6 +778,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
 .bg-lightGray {
   background-color: F2F2F2;
 }
@@ -920,6 +926,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-\[50px\] {
   padding-top: 50px;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-left {
@@ -1240,6 +1250,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding: 2rem;
   }
 
+  .md\:p-0 {
+    padding: 0px;
+  }
+
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -1263,6 +1277,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:pl-11 {
     padding-left: 2.75rem;
+  }
+
+  .md\:pl-0 {
+    padding-left: 0px;
   }
 
   .md\:text-left {
